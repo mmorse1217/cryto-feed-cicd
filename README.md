@@ -36,7 +36,7 @@ partial solution: we will evaluate what has been completed on its own merit.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r e .
+pip install -e .
 
 # fetch a snapshot
 python app/fetch_prices.py --assets bitcoin,ethereum,solana --out data
