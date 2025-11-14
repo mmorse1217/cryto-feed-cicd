@@ -36,8 +36,7 @@ partial solution: we will evaluate what has been completed on its own merit.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-export PYTHONPATH=path/to/repo
+pip install -r e .
 
 # fetch a snapshot
 python app/fetch_prices.py --assets bitcoin,ethereum,solana --out data
